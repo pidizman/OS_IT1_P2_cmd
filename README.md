@@ -41,3 +41,9 @@ Tabulka prioritních hodnot
 | normal             | 32     |
 | below normal       | 16384  |
 | low                | 64     |
+
+## Nastavení úplného smazání souborů které smažu
+### Windows
+```cmd
+fsutil behavior query DisableDeleteNotify
+```
