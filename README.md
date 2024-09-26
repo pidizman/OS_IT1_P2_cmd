@@ -32,3 +32,12 @@ Skrz PID určitého procesu
 ```cmd
 wmic process where processid=<PID> CALL setpriority <hodnota priority>
 ```
+Tabulka prioritních hodnot
+| **priority level** | **ID** |
+|--------------------|--------|
+| realtime           | 256    |
+| high               | 128    |
+| above normal       | 32768  |
+| normal             | 32     |
+| below normal       | 16384  |
+| low                | 64     |
