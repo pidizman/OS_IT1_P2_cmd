@@ -11,7 +11,7 @@ tasklist
 ps ax
 ```
 
-## Ukončení bežícího procesu
+## Ukončení bežícího procesů
 ### Windows
 ```cmd
 taskkill <PID>
@@ -22,13 +22,13 @@ taskkill <PID>
 kill <PID>
 ```
 
-## Zvýšení priority procesu
+## Zvýšení priority procesů
 ### Windows
 Skrze jméno určitého procesu
 ```cmd
-wmic process where name="<jméno procesu>" CALL setpriority 32
+wmic process where name="<jméno procesu>" CALL setpriority <hodnota priority>
 ```
 Skrz PID určitého procesu
 ```cmd
-wmic process where processid=<PID> CALL setpriority 32
+wmic process where processid=<PID> CALL setpriority <hodnota priority>
 ```
