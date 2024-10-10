@@ -87,8 +87,16 @@ w
 who
 ```
 
-## 
+## Odeslání souboru
 ### UNIX (Linux) debian
 ```bash
-
+scp <zdroj> <cíl>
+```
+Client -> Server
+```bash
+scp /etc/hosts student@<ip>:/tmp/
+```
+Server -> Client
+```bash
+scp student@<ip>:/etc/hosts /tmp/
 ```
