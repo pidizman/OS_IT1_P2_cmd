@@ -100,3 +100,15 @@ Server -> Client
 ```bash
 scp student@<ip>:/etc/hosts /tmp/
 ```
+
+## Vygenerování ssh klíču na klientovi
+### UNIX (Linux) debian
+```bash
+ssh-keygen
+```
+
+## Kopírování ssh klíčů z klienta na server
+### UNIX (Linux) debian
+```bash
+ssh-copy-id <účet>@<ip>
+```
