@@ -47,3 +47,27 @@ Tabulka prioritních hodnot
 ```cmd
 fsutil behavior query DisableDeleteNotify
 ```
+
+## Vypsání aktuální IP adres
+### UNIX (Linux) debian
+```bash
+ip add show
+```
+
+## Aktualizace seznamu balíčků ze zrcadel distribuce
+### UNIX (Linux) debian
+```bash
+sudo apt update
+```
+
+## Aktualizace systému
+### UNIX (Linux) debian
+```bash
+sudo apt upgrade
+```
+
+## Instalace nového balíčku
+### UNIX (Linux) debian
+```bash
+sudo apt install <balíček>
+```
