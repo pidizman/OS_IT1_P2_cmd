@@ -71,3 +71,24 @@ sudo apt upgrade
 ```bash
 sudo apt install <balíček>
 ```
+
+## Přihlášení jako root
+### UNIX (Linux) debian
+```bash
+sudo su -
+```
+
+## Výpsání kdo je příhlášený
+### UNIX (Linux) debian
+```bash
+w
+```
+```bash
+who
+```
+
+## 
+### UNIX (Linux) debian
+```bash
+
+```
