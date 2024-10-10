@@ -112,3 +112,11 @@ ssh-keygen
 ```bash
 ssh-copy-id <účet>@<ip>
 ```
+
+## Nastavení přihlášení pouze skrze ssh key
+### UNIX (Linux) debian
+```bash
+nano /etc/ssh/sshd_config
+```
+Poté nastavit `PasswordAuthentication no` NEZAPOMENOUT ODSTRANIT `#`!!
+CTRL+X (uložení změn) a `sudo reboot`
