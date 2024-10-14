@@ -122,7 +122,7 @@ ssh-keygen
 ## Kopírování ssh klíčů z klienta na server
 ### UNIX (Linux) debian
 ```bash
-ssh-copy-id <účet>@<ip>
+ssh-copy-id <ip>
 ```
 
 ## Nastavení přihlášení pouze skrze ssh key
@@ -132,3 +132,68 @@ nano /etc/ssh/sshd_config
 ```
 Poté nastavit `PasswordAuthentication no` NEZAPOMENOUT ODSTRANIT `#`!!
 CTRL+X (uložení změn) a `sudo reboot`
+
+## Zjištění ve kterém adresáři se nacházíš
+### UNIX (Linux) debian
+```bash
+pwd
+```
+
+## Vrácení se do home adresáře
+### UNIX (Linux) debian
+```bash
+cd ~
+```
+
+## Vytvoření nového souboru
+### UNIX (Linux) debian
+```bash
+touch <soubor>
+```
+
+## Upravení oprávnění čtení souboru
+### UNIX (Linux) debian
+```bash
+chmod 600 <soubor>
+```
+
+## Upravení vlastníka souboru
+### UNIX (Linux) debian
+```bash
+chown <vlastník> <skupina> <anybody> <cisla> <soubor>
+```
+[Vysvětlení cisla](https://www.theserverside.com/blog/Coffee-Talk-Java-News-Stories-and-Opinions/how-permissions-chmod-with-numbers-command-explained-777-rwx-unix)
+
+## Hledání souboru
+### UNIX (Linux) debian
+```bash
+locate
+```
+Pro servery lepsí
+```bash
+find <kde ma hledat> -name <co ma hledat>
+```
+
+## Vypsani obsahu souboru na standartni vystup (stdout)
+### UNIX (Linux) debian
+```bash
+cat <soubor>
+```
+
+## Kopirovani souboru
+### UNIX (Linux) debian
+```bash
+cat <soubor> > <kam kopirovat>
+```
+
+## Vypsani zacatku souboru
+### UNIX (Linux) debian
+```bash
+head <soubor>
+```
+
+## Vypsani konce souboru
+### UNIX (Linux) debian
+```bash
+tail <soubor>
+```
