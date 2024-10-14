@@ -48,6 +48,18 @@ Tabulka prioritních hodnot
 fsutil behavior query DisableDeleteNotify
 ```
 
+## Rozdělen disků na partition
+### Windows + UNIX (Linux)
+```
+gparted
+```
+
+## Zjištění volného místa na disku
+### Windows + UNIX (Linux)
+```
+df
+```
+
 ## Vypsání aktuální IP adres
 ### UNIX (Linux) debian
 ```bash
