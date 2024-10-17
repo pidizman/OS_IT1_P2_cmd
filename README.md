@@ -203,3 +203,21 @@ tail <soubor>
 ```bash
 awk '{print $<sloupec>;}'
 ```
+
+## Promenne v operacni pameti
+### UNIX (Linux) debian
+```bash
+set
+```
+
+## Nastaveni promenne v operacni pameti
+### UNIX (Linux) debian
+```bash
+execute Jmeno="Petr Grussman"
+```
+
+## Filtrace podle urciteho znaku/slova
+### UNIX (Linux) debian
+```bash
+grep <slovo>
+```
