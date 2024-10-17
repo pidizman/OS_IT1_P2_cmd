@@ -197,3 +197,9 @@ head <soubor>
 ```bash
 tail <soubor>
 ```
+
+## Filtrovani sloupcu
+### UNIX (Linux) debian
+```bash
+awk '{print $<sloupec>;}'
+```
