@@ -227,3 +227,15 @@ grep <slovo>
 ```bash
 lshw
 ```
+
+## Co je v pocitaci pripojeno skrze usb
+### UNIX (Linux) debian
+```bash
+lsusb
+```
+
+## Co je v pocitaci pripojeno skrze pci
+### UNIX (Linux) debian
+```bash
+lspci
+```
