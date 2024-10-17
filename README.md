@@ -213,11 +213,17 @@ set
 ## Nastaveni promenne v operacni pameti
 ### UNIX (Linux) debian
 ```bash
-execute Jmeno="Petr Grussman"
+execute Jmeno="Petr Grussmann"
 ```
 
 ## Filtrace podle urciteho znaku/slova
 ### UNIX (Linux) debian
 ```bash
 grep <slovo>
+```
+
+## Co je v pocitaci za hardware
+### UNIX (Linux) debian
+```bash
+lshw
 ```
