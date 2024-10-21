@@ -239,3 +239,9 @@ lsusb
 ```bash
 lspci
 ```
+
+## Zmena hesla
+### UNIX (Linux) debian
+```bash
+passwd
+```
