@@ -245,3 +245,34 @@ lspci
 ```bash
 passwd
 ```
+
+## Pridani uzivatele
+### UNIX (Linux) debian
+Interaktivni
+```bash
+adduser
+```
+nebo neinteraktivni
+```bash
+useradd
+```
+
+## Odstraneni uzivatele
+### UNIX (Linux) debian
+```bash
+deluser
+```
+
+## Pridani uzivatele do skupin
+### UNIX (Linux) debian
+```bash
+usermod -aG <skupina> <uzivatel>
+```
+
+## Kam se to uklada
+### UNIX (Linux) debian
+```bash
+/etc/passwd -> zakladni parametry uzivatele
+/etc/shadow -> hesla uzivatelu
+/etc/group -> cislo skupiny a kdo do ni patri
+```
