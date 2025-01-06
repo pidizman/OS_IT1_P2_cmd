@@ -291,6 +291,14 @@ Systemovy soubor
 zurnalovaci - NTFS, EXT3-4, reiserfc, btrfs
 nezurnalovaci - FAT, EXT2
 
-ZFS - nastuoce raid poli, pouzivaji cache pameti, delaji to stejne jako raid, pism. Z => umoznuje kompresi
+ZFS - nastuoce raid poli, pouzivaji cache pameti, delaji to stejne jako raid, pism. Z v nazvu => umoznuje kompresi
 
+Prava uzivatelu
 
+RAID0 - DISK + DISK = 2 DISKY
+RAID1 - DISK + DISK = 1 DISK
+RAID5 - DISK + DISK .... DISK = N * DISK - 1 DISK
+RAID6 - DISK + DISK .... DISK = N * DISK - X DISKU (stejne jako raid5, akorat si urcim kolik chci disku na zalohu)
+RAID10 - KOMBINACE R0 A R1
+
+Balickovaci system
