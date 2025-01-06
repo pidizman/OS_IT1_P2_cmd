@@ -276,3 +276,21 @@ usermod -aG <skupina> <uzivatel>
 /etc/shadow -> hesla uzivatelu
 /etc/group -> cislo skupiny a kdo do ni patri
 ```
+
+Typy disku
+HDD - rychlost cteni/zapisu, sekvencni cteni/zapis(kolik dat ziskam za sekundu vetsinou do 100MB/s), rychlost otacek disku
+SSD - problem s jeho zivotnosti
+
+Formatovani disku
+=> meni sktrukturu dat
+
+CHKDSK - kontrol disku windows
+fsck.vfat - kontrola disku linux
+
+Systemovy soubor
+zurnalovaci - NTFS, EXT3-4, reiserfc, btrfs
+nezurnalovaci - FAT, EXT2
+
+ZFS - nastuoce raid poli, pouzivaji cache pameti, delaji to stejne jako raid, pism. Z => umoznuje kompresi
+
+
