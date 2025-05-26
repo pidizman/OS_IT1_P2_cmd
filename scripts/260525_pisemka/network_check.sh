@@ -14,3 +14,7 @@ fi
 
 # Povoleni
 # sudo iptables -F
+
+# Spusteni scriptu jednou za XYZ casu pres crontab
+# crontab -e
+# */5 * * * * /home/student/network_check.sh
