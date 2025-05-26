@@ -8,3 +8,9 @@ if [ "$promena" != "0" ]; then
     # Restart the network service (adjust for your system's service manager)
     sudo systemctl restart systemd-networkd
 fi
+
+# Zablokovani posilani ping requestu na 192.168.10.1
+# sudo iptables -A INPUT -p icmp -s 192.168.10.1 -j DROP
+
+# Povoleni
+# sudo iptables -F
