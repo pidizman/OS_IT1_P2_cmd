@@ -12,8 +12,8 @@ else:
 url = "https://it2405.sspu-opava.eu/wp-json/wp/v2/posts"
 
 # Authentication credentials (replace with your actual username and application password)
-username = "dvorak"
-password = "3KsY 64zD T8bG Scuj yKux htMQ"
+username = "uzivatelske_jmeno"
+password = "heslo"
 
 # Post data
 data = {
